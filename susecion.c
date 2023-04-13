@@ -6,8 +6,17 @@ int main(int argc, char const *argv[])
 {
     int n;
     double suma=0, cal=0;
-    printf("Ingrese un numero entero: ");
-    scanf("%d", &n);
+    do{
+        printf("Ingrese un numero entero:\n ");
+        scanf("%d", &n);
+
+        if (n<=0)
+        {
+           printf("Escribir un numero entero\n");
+
+        }
+
+    }while(n<=0);
 
     for (int i = 1; i <= n; i++)
     {
