@@ -25,6 +25,7 @@ int main(int argc, char const *argv[])
 
     }
     printf("La suma de los %d terminos de la serie es: %1f\n", n, cal);
+    printf("Gracias")
 
     getch();
     return 0;
